@@ -1,0 +1,10 @@
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      SecurityGroupIds: 
+        - sg-06c999607e48c6f43
+      KeyName: vockey
+      ImageId: ami-0cff7528ff583bf9a
+      SubnetId: subnet-0054a0e589c45c6d2
